@@ -18,8 +18,8 @@ header {
   background: rgb(246, 246, 246);
 }
 h1 {
-  font-size: 3rem;
-  margin-bottom: 12px;
+  font-size: 2rem;
+  margin-bottom: 32px;
 }
 .carousel {
   height: 100vh;

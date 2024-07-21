@@ -5,6 +5,7 @@ const slides = document.querySelectorAll(".slide");
 
 buttons.forEach((button) => {
   button.addEventListener("click", (e) => {
+    console.log(e);
     const calcNextSlide = e.target.id === "next" ? 1 : -1;
     const slideActive = document.querySelector(".active");
 
